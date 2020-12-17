@@ -5,6 +5,7 @@
     <parent>
         <groupId>com.http</groupId>
         <artifactId>http</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.http</groupId>
     <artifactId>httpservice</artifactId>

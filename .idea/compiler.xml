@@ -17,7 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="http" options="-parameters" />
-      <module name="httpclient" options="" />
+      <module name="httpclient" options="-parameters" />
       <module name="httpservice" options="-parameters" />
     </option>
   </component>
