@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383f5669-71d2-428c-a26d-fdc22e158561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/WebMvcConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,106 +25,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="147" column="53" lean-forward="true" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3551#3552#0" expanded="true" />
+                <element signature="e#3586#3587#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/deploy.jar!/com/sun/deploy/net/cookie/CookieHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/client/BasicCookieStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/cookie/Cookie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/javax/net/ssl/X509TrustManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/AbstractHttpMessage.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+              <folding>
+                <element signature="e#1907#1908#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/HeaderGroup.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/annotation/WebFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.3.1/spring-webmvc-5.3.1-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.3.1/spring-webmvc-5.3.1-sources.jar!/org/springframework/web/servlet/handler/MappedInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="60" column="66" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/http/Cookie.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/WebMvcConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/repository/org/springframework/boot/spring-boot/2.4.0/spring-boot-2.4.0.jar!/org/springframework/boot/web/servlet/FilterRegistrationBean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="535">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -153,17 +129,17 @@
         <option value="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/apache/HttpUtils.java" />
         <option value="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/commons/HttpUtils.java" />
         <option value="$PROJECT_DIR$/httpclient/pom.xml" />
-        <option value="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java" />
         <option value="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpResult.java" />
-        <option value="$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java" />
-        <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java" />
         <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/RequsetInterceptor.java" />
         <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/RequestInterceptor.java" />
         <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/WebMVCConfiguartion.java" />
         <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestInterceptor.java" />
-        <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestFilter.java" />
+        <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java" />
+        <option value="$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java" />
+        <option value="$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java" />
       </list>
     </option>
   </component>
@@ -197,10 +173,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="944" />
-    <option name="y" value="129" />
-    <option name="width" value="976" />
-    <option name="height" value="880" />
+    <option name="x" value="755" />
+    <option name="y" value="103" />
+    <option name="width" value="781" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -463,6 +439,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -660,6 +638,57 @@
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -701,6 +730,30 @@
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="ssl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
@@ -780,6 +833,16 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpclient:4.5.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpclient-4.5.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -792,6 +855,62 @@
               <item name="http" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpclient:4.5.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpclient-4.5.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpcore:4.4.13" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpcore:4.4.13" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpcore-4.4.13.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpcore:4.4.13" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpcore-4.4.13.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpcore:4.4.13" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpcore-4.4.13.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpcore:4.4.13" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpcore-4.4.13.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.httpcomponents:httpcore:4.4.13" type="70bed36:NamedLibraryElementNode" />
+              <item name="httpcore-4.4.13.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
@@ -997,6 +1116,27 @@
             <path>
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework:spring-webmvc:5.3.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -1077,8 +1217,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1086,11 +1224,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="requestInterc&#9;PSI&#9;JAVA://org.springframework.web.servlet.FrameworkServlet.RequestBindingInterceptor&#10;CookiePolicy&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/net/CookiePolicy.class" />
+    <property name="SearchEverywhereHistoryKey" value="CookieHandler &#9;PSI&#9;JAVA://com.sun.deploy.net.cookie.CookieHandler&#10;requestInterc&#9;PSI&#9;JAVA://org.springframework.web.servlet.FrameworkServlet.RequestBindingInterceptor&#10;CookiePolicy&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/net/CookiePolicy.class" />
     <property name="ToolWindowTerminal.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608544360962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608863913427" />
     <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1124,7 +1262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HttpclientApplicationTests.getRequestTest">
+  <component name="RunManager" selected="JUnit.HttpclientApplicationTests.getRequestTest2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1148,6 +1286,40 @@
       <option name="PACKAGE_NAME" value="com.http.httpclient" />
       <option name="MAIN_CLASS_NAME" value="com.http.httpclient.HttpclientApplicationTests" />
       <option name="METHOD_NAME" value="getRequestTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpclientApplicationTests.getRequestTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.http.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.http.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.http.httpclient.HttpclientApplicationTests" />
+      <option name="METHOD_NAME" value="getRequestTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpclientApplicationTests.getRequestTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.http.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.http.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.http.httpclient.HttpclientApplicationTests" />
+      <option name="METHOD_NAME" value="getRequestTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -1195,9 +1367,13 @@
       <item itemvalue="Spring Boot.HttpclientApplication" />
       <item itemvalue="Spring Boot.HttpserviceApplication" />
       <item itemvalue="JUnit.HttpclientApplicationTests.getRequestTest" />
+      <item itemvalue="JUnit.HttpclientApplicationTests.getRequestTest2" />
+      <item itemvalue="JUnit.HttpclientApplicationTests.getRequestTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HttpclientApplicationTests.getRequestTest2" />
+        <item itemvalue="JUnit.HttpclientApplicationTests.getRequestTest1" />
         <item itemvalue="JUnit.HttpclientApplicationTests.getRequestTest" />
       </list>
     </recent_temporary>
@@ -1216,7 +1392,8 @@
       <workItem from="1607569946207" duration="7954000" />
       <workItem from="1608103208992" duration="3708000" />
       <workItem from="1608191230902" duration="488000" />
-      <workItem from="1608540936967" duration="3299000" />
+      <workItem from="1608540936967" duration="3504000" />
+      <workItem from="1608802962587" duration="5873000" />
     </task>
     <task id="LOCAL-00001" summary="get请求完成。">
       <created>1608191702698</created>
@@ -1225,49 +1402,56 @@
       <option name="project" value="LOCAL" />
       <updated>1608191702698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加拦截器已及过滤器。">
+      <created>1608544446144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608544446144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.17 at 15h 54m 26s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest1 - 2020.12.24 at 17h 53m 38s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 06m 30s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest2 - 2020.12.24 at 18h 12m 09s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 07m 35s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest1 - 2020.12.24 at 18h 13m 08s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 08m 36s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest1 - 2020.12.24 at 18h 19m 06s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 08m 58s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest1 - 2020.12.24 at 18h 23m 15s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 17m 59s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest1 - 2020.12.24 at 18h 23m 52s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 23m 58s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest2 - 2020.12.24 at 18h 24m 03s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 27m 09s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest2 - 2020.12.24 at 18h 32m 23s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 27m 36s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest2 - 2020.12.25 at 10h 14m 39s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpclientApplicationTests_getRequestTest - 2020.12.21 at 17h 48m 46s.xml">
-      <configuration name="HttpclientApplicationTests.getRequestTest" configurationId="JUnit" />
+    <history-entry file="HttpclientApplicationTests_getRequestTest2 - 2020.12.25 at 10h 15m 19s.xml">
+      <configuration name="HttpclientApplicationTests.getRequestTest2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23301000" />
+    <option name="totallyTimeSpent" value="29379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1278,7 +1462,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47991315" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46254072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1296,7 +1480,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Jenkins" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32984033" />
       <window_info anchor="right" id="zoolytic" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
       <window_info anchor="right" id="Database" order="9" />
@@ -1312,86 +1496,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get请求完成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="get请求完成。" />
+    <MESSAGE value="添加拦截器已及过滤器。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加拦截器已及过滤器。" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>request.getCookies()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/maven/repository/com/alibaba/fastjson/1.2.68/fastjson-1.2.68-sources.jar!/com/alibaba/fastjson/JSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1010" column="25" selection-start-line="1010" selection-start-column="25" selection-end-line="1010" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/client/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/client/methods/HttpGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/client/methods/AbstractExecutionAwareRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/ProtocolVersion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/client/methods/HttpRequestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/params/HostParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/HostConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/HttpMethodBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="2251" column="48" selection-start-line="2251" selection-start-column="32" selection-end-line="2251" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="527" column="25" selection-start-line="527" selection-start-column="25" selection-end-line="527" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/StandardCharsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -1498,16 +1615,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/apache/HttpUtils.java" />
-    <entry file="file://$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
@@ -1581,13 +1688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/HttpserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1602,44 +1702,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/http/Cookie.class">
+    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/annotation/WebFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.3.1/spring-webmvc-5.3.1-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="2156">
           <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.3.1/spring-webmvc-5.3.1-sources.jar!/org/springframework/web/servlet/handler/MappedInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="812">
           <caret line="60" column="66" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1650,38 +1730,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java">
+    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/http/Cookie.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="168">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/WebMvcConfiguration.java">
+    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/http/HttpServletResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="298">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/client/CloseableHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar!/javax/servlet/annotation/WebFilter.class">
+    <entry file="jar://E:/maven/repository/org/springframework/spring-web/5.3.1/spring-web-5.3.1-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="3192">
+          <caret line="148" column="7" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/intercept/RequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="-227">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/cookie/ClientCookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/cookie/BasicClientCookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpservice/src/main/java/com/http/httpservice/HttpserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpclient/src/test/java/com/http/httpclient/HttpclientApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/HeaderGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/AbstractHttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding>
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/javax/net/ssl/X509TrustManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/cookie/Cookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/client/BasicCookieStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/deploy.jar!/com/sun/deploy/net/cookie/CookieHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpclient/src/main/java/com/http/httpclient/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="147" column="53" lean-forward="true" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
           </folding>
         </state>
       </provider>

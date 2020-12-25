@@ -11,23 +11,38 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.config.ConnectionConfig;
+import org.apache.http.config.Registry;
+import org.apache.http.config.RegistryBuilder;
 import org.apache.http.config.SocketConfig;
+import org.apache.http.conn.socket.ConnectionSocketFactory;
+import org.apache.http.conn.socket.PlainConnectionSocketFactory;
+import org.apache.http.conn.ssl.NoopHostnameVerifier;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.http.conn.ssl.SSLContextBuilder;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.nio.charset.Charset;
 import java.nio.charset.CodingErrorAction;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -77,13 +92,33 @@ public class HttpUtils {
 
 
     static {
-        init();
+        try {
+            init();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (KeyManagementException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // 不做任何检查的X509TrustManager匿名类
+    private static class x509mgr implements X509TrustManager{
+        @Override
+        public void checkClientTrusted(X509Certificate[] xcs, String string) { }
+
+        @Override
+        public void checkServerTrusted(X509Certificate[] xcs, String string) { }
+
+        @Override
+        public X509Certificate[] getAcceptedIssuers() {
+            return null;
+        }
     }
 
     /**
      * 全局对象初始化
      */
-    private static void init() {
+    private static void init() throws NoSuchAlgorithmException, KeyManagementException {
         // 创建Connection配置对象
         connectionConfig = ConnectionConfig.custom()
                 .setMalformedInputAction(CodingErrorAction.IGNORE)
@@ -103,6 +138,10 @@ public class HttpUtils {
         // 创建Cookie存储对象（服务端返回的Cookie保存在CookieStore中，下次再访问时才会将CookieStore中的Cookie发送给服务端）
         cookieStore = new BasicCookieStore();
 
+        SSLContext sslContext = SSLContext.getInstance("TLS");
+        sslContext.init(null, new TrustManager[] { new x509mgr() }, new java.security.SecureRandom());
+        SSLConnectionSocketFactory sslsf = new SSLConnectionSocketFactory(sslContext, SSLConnectionSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+
         // 创建HttpClient对象
         httpClient = HttpClients.custom()
                 .setDefaultConnectionConfig(connectionConfig)
@@ -112,6 +151,9 @@ public class HttpUtils {
                 .setUserAgent(USER_AGENT)
                 .setMaxConnTotal(MAX_CONN_TOTAL)
                 .setMaxConnPerRoute(MAX_CONN_PER_ROUTE)
+                .setSSLContext(sslContext)
+                .setSSLSocketFactory(sslsf)
+                .setConnectionManager(createConnectionManager())
                 .build();
     }
 
@@ -390,6 +432,29 @@ public class HttpUtils {
         } else {
             return true;
         }
+    }
+
+    private static PoolingHttpClientConnectionManager createConnectionManager() {
+        try {
+            SSLContext sslContext = new SSLContextBuilder()
+                    .loadTrustMaterial(null, (x509CertChain, authType) -> true)
+                    .build();
+
+            SSLConnectionSocketFactory sslsf = new SSLConnectionSocketFactory(sslContext, NoopHostnameVerifier.INSTANCE);
+            Registry<ConnectionSocketFactory> socketFactoryRegistry =
+                    RegistryBuilder.<ConnectionSocketFactory> create()
+                            .register("https", sslsf)
+                            .register("http", PlainConnectionSocketFactory.getSocketFactory())
+                            .build();
+
+            PoolingHttpClientConnectionManager manager = new PoolingHttpClientConnectionManager(socketFactoryRegistry);
+            manager.setDefaultMaxPerRoute(50);
+            manager.setMaxTotal(50 * 2);
+            return manager;
+        } catch (NoSuchAlgorithmException | KeyManagementException | KeyStoreException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
 }
